@@ -2,8 +2,8 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
+  presetMini,
   presetTypography,
-  presetUno,
   presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
@@ -31,7 +31,7 @@ export default defineConfig({
     },
   },
   presets: [
-    presetUno(),
+    presetMini(),
     presetAttributify(),
     presetIcons(),
     presetTypography(),
